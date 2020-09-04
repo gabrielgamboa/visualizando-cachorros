@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41,46,73));
+}
+
+.title {
+    position: relative;
+    left: 60px;
+}
+
+#app{
+    position: absolute;
+    right: 350px;
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 500px;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+}
+
